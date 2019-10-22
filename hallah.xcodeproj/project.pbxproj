@@ -12,9 +12,14 @@
 		693C2A50235EFD15003C8692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693C2A4E235EFD15003C8692 /* Main.storyboard */; };
 		693C2A52235EFD15003C8692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 693C2A51235EFD15003C8692 /* Assets.xcassets */; };
 		693C2A55235EFD15003C8692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693C2A53235EFD15003C8692 /* LaunchScreen.storyboard */; };
+		6956AA94235F132700A8B727 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6956AA93235F132200A8B727 /* GoogleService-Info.plist */; };
+		6956AA96235F15EE00A8B727 /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6956AA95235F15EE00A8B727 /* InputVC.swift */; };
+		6956AA98235F200700A8B727 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6956AA97235F200700A8B727 /* DatabaseService.swift */; };
+		E4EBD92102C7AD023B01A197 /* Pods_hallah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E026A1EF9BCA821C10D1A0 /* Pods_hallah.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		209A936B6FAA90498A5DF8C4 /* Pods-hallah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hallah.debug.xcconfig"; path = "Target Support Files/Pods-hallah/Pods-hallah.debug.xcconfig"; sourceTree = "<group>"; };
 		693C2A47235EFD14003C8692 /* hallah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hallah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		693C2A4A235EFD15003C8692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		693C2A4C235EFD15003C8692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,11 @@
 		693C2A51235EFD15003C8692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		693C2A54235EFD15003C8692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		693C2A56235EFD15003C8692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6956AA93235F132200A8B727 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6956AA95235F15EE00A8B727 /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
+		6956AA97235F200700A8B727 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		89E026A1EF9BCA821C10D1A0 /* Pods_hallah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hallah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E474D6CEC37396DBE90157 /* Pods-hallah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hallah.release.xcconfig"; path = "Target Support Files/Pods-hallah/Pods-hallah.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EBD92102C7AD023B01A197 /* Pods_hallah.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				693C2A49235EFD15003C8692 /* hallah */,
 				693C2A48235EFD14003C8692 /* Products */,
+				E513E00F757C71D5E5A90071 /* Pods */,
+				71B6C0DA687C66A4C1BB4D75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,34 @@
 		693C2A49235EFD15003C8692 /* hallah */ = {
 			isa = PBXGroup;
 			children = (
+				6956AA93235F132200A8B727 /* GoogleService-Info.plist */,
 				693C2A4A235EFD15003C8692 /* AppDelegate.swift */,
 				693C2A4C235EFD15003C8692 /* ViewController.swift */,
 				693C2A4E235EFD15003C8692 /* Main.storyboard */,
 				693C2A51235EFD15003C8692 /* Assets.xcassets */,
 				693C2A53235EFD15003C8692 /* LaunchScreen.storyboard */,
 				693C2A56235EFD15003C8692 /* Info.plist */,
+				6956AA95235F15EE00A8B727 /* InputVC.swift */,
+				6956AA97235F200700A8B727 /* DatabaseService.swift */,
 			);
 			path = hallah;
+			sourceTree = "<group>";
+		};
+		71B6C0DA687C66A4C1BB4D75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89E026A1EF9BCA821C10D1A0 /* Pods_hallah.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E513E00F757C71D5E5A90071 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				209A936B6FAA90498A5DF8C4 /* Pods-hallah.debug.xcconfig */,
+				C9E474D6CEC37396DBE90157 /* Pods-hallah.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 693C2A59235EFD15003C8692 /* Build configuration list for PBXNativeTarget "hallah" */;
 			buildPhases = (
+				703CF14FDEF981C58BFD0792 /* [CP] Check Pods Manifest.lock */,
 				693C2A43235EFD14003C8692 /* Sources */,
 				693C2A44235EFD14003C8692 /* Frameworks */,
 				693C2A45235EFD14003C8692 /* Resources */,
+				36399F446F50B9092D9542B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,12 +159,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				693C2A55235EFD15003C8692 /* LaunchScreen.storyboard in Resources */,
+				6956AA94235F132700A8B727 /* GoogleService-Info.plist in Resources */,
 				693C2A52235EFD15003C8692 /* Assets.xcassets in Resources */,
 				693C2A50235EFD15003C8692 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36399F446F50B9092D9542B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hallah/Pods-hallah-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hallah/Pods-hallah-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		703CF14FDEF981C58BFD0792 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hallah-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		693C2A43235EFD14003C8692 /* Sources */ = {
@@ -138,6 +215,8 @@
 			files = (
 				693C2A4D235EFD15003C8692 /* ViewController.swift in Sources */,
 				693C2A4B235EFD15003C8692 /* AppDelegate.swift in Sources */,
+				6956AA98235F200700A8B727 /* DatabaseService.swift in Sources */,
+				6956AA96235F15EE00A8B727 /* InputVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +351,7 @@
 		};
 		693C2A5A235EFD15003C8692 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209A936B6FAA90498A5DF8C4 /* Pods-hallah.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +367,7 @@
 		};
 		693C2A5B235EFD15003C8692 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E474D6CEC37396DBE90157 /* Pods-hallah.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
